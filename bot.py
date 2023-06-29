@@ -10,17 +10,17 @@ mode = 0
 
 bot = telebot.TeleBot(token_bot)
 
-def get_random_photo():
+def get_random_photo(): #скачиваем с сайта случайную картинку
     url = "https://rand.by/image"
     driver = webdriver.Chrome()
     try:
         driver.get(url=url)
-        driver.find_element(by=By.XPATH, value="/html/body/div/div/div/div[1]/main/section/div[1]/button").click()
+        driver.find_element(by=By.XPATH, value="/html/body/div/div/div/div[1]/main/section/div[1]/button").click() #чтобы её получить нужно кликнуть по кнопке
         time.sleep(1)
         img = driver.find_element(by=By.XPATH, value="/html/body/div/div/div/div[1]/main/section/div[2]/div[2]/div[2]/img")
         src = img.get_attribute('src')
         response = requests.get(src, stream=True)
-        with open('img.jpg', 'wb') as out_file:
+        with open('img.jpg', 'wb') as out_file: #скачивание
             shutil.copyfileobj(response.raw, out_file)
         del response
        

@@ -173,7 +173,7 @@ def run_style_transfer(cnn, normalization_mean, normalization_std,
             loss.backward()
 
             run[0] += 1
-            if run[0] % 50 == 0:
+            if run[0] % 20 == 0:
                 print("run {}:".format(run))
                 frame.append(unloader(input_img.clone().squeeze(0).detach()))
                 
@@ -192,7 +192,7 @@ def make_video(frame):
     frame[0].save(
         'my.gif',
         save_all=True,
-        append_images=frame[1:],  # Срез который игнорирует первый кадр.
+        append_images=frame,  # Срез который игнорирует первый кадр.
         optimize=True,
         duration=200,
         loop=0
