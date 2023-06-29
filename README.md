@@ -22,4 +22,10 @@
 
 ## Ещё один пример работы 
 - Изображение стиля
-<img width="700" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/style.jpg">
+<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/style.jpg">
+- Изображение контента
+<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/content.jpg">
+- Изображение на выходе
+<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/output.jpg">
+- Гифка
+<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/output.gif">
