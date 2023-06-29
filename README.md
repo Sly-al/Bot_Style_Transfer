@@ -12,7 +12,7 @@
 
 ## Пример работы
 
-<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen1.jpg">
-<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen2.jpg">
-<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen3.jpg">
-<img width="500" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen4.jpg">
+<img width="900" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen1.jpg">
+<img width="900" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen2.jpg">
+<img width="900" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen3.jpg">
+<img width="900" alt="image" src="https://github.com/Sly-al/Bot_Style_Transfer/blob/main/photos/screen4.jpg">
