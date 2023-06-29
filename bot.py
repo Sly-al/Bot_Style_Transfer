@@ -59,10 +59,13 @@ def get_photo(message):
     if num_photos == 2:
         bot.send_message(message.chat.id, "Ща пошаманим")
         input_img = content_img.clone()
-        output = run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
+        output, frame = run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
                             content_img, style_img, input_img)
+        make_video(frame)
         res = unloader(output.squeeze(0))
         bot.send_photo(message.chat.id, res)
+        with open ('my.gif', 'rb') as gif:
+            bot.send_video(message.chat.id, gif, None)
         num_photos = 0
 
 @bot.message_handler()    
